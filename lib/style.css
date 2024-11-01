@@ -1,0 +1,259 @@
+/* Social Sharing Buttons*/
+.share_post {
+  clear: both;
+  display: block;
+  height: 30px;
+  margin: 10px auto 0;
+  width: 570px;
+}
+.share_post .facebook {
+	float: left;
+	margin-right: 8px;
+	width: 80px !important;
+}
+.share_post .tweeter_post {
+	float: left;
+}
+.share_post .bufferapp {
+	float: left;
+}
+.share_post .linkedin {
+	float: left;
+	margin: 10px 30px 0 0;
+}
+.share_post .pinterest {
+	float: left;
+	margin: 10px 40px 0 0;
+}
+.share_post .google1 {
+	float: left;
+	margin-right: 8px;
+	width: 60px !important;
+}
+
+/* Author Box */
+#authorboxbody {
+  background: url("../images/aabbg.jpg") repeat scroll 0 0 transparent;
+  border-bottom: 1px dotted #000000;
+  border-top: 1px dotted #000000;
+  font-family: 'Ubuntu',sans-serif;
+  margin: 10px auto;
+  min-height: 85px;
+  width: 100%;
+}
+.authorinfo {
+  float: left;
+  height: auto;
+  padding-right: 0 !important;
+  width: 75%;
+}
+.authorinfo img.gravatar{margin:5px 10px 0 10px;display:inline;float:left;height:70px;width:70px;border:2px solid #9d9d9d;float:left;float:left;}
+.authorinfo img:hover.gravatar{-webkit-box-shadow:0 0 4px #404040;-moz-box-shadow:0 0 4px #404040;box-shadow:0 0 4px #404040;}
+.authorinfo p.authorname {
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 3px 0 10px;
+  text-align: left;
+  text-shadow: 1px 1px 1px #FFFFFF;
+  text-transform: none !important;
+}
+.authorinfo p.authorname a{color:#5986c5;text-decoration:none;}
+.authorinfo p.description, .authorinfo p.website {
+  font-size: 14px;
+  margin: 5px 0 10px 10px;
+  text-align: justify;
+  text-shadow: 1px 1px 1px #FFFFFF;
+}
+.authorinfo p.description a {
+  color: #312F8E;
+  text-shadow: 1px 1px 1px #FFFFFF;
+}
+.authorinfo p.website a{color:#ffa650;font-weight:bold;}
+.authorsocial {
+  float: left;
+  height: auto;
+  margin: 0 0 0 10px;
+  width: 23%;
+}
+.authorsocial p {
+  color: #404040;
+  font-size: 16px;
+  font-variant: small-caps;
+  font-weight: bold;
+  margin: 0 0 10px !important;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 1px 1px 1px #787878;
+}
+.authorsocial .socialicons {
+  margin: 0;
+  width: 100%;
+}
+.authorsocial a img {
+  border: medium none;
+  border-radius: 5px 5px 5px 5px;
+  float: left;
+  height: 25px;
+  margin: 0 5px 5px 0;
+  width: 25px;
+}
+.clear {clear:both;}
+
+/* Sidebar */
+.socialsidebar {
+  text-align: center;
+}
+.socialsidebar img {
+  border: 1px solid #DDDDDD;
+  border-radius: 3px 3px 3px 3px;
+  margin: 0 4px;
+  padding: 1px;
+}
+.tabbercomments {
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 1px;
+}
+.tabbercom > a {
+  color: #4580C2;
+}
+.tabbertab ul li img {
+  border-radius: 5px 5px 5px 5px;
+  float: left;
+  margin: 0 5px 0 0;
+}
+.adwidget {
+  margin: 0 auto;
+  width: 100%;
+}
+.adwidget img.rec125 {
+  height: 125px;
+  margin: 5px 9px;
+  width: 125px;
+}
+.adwidget img.rec250 {
+  display: block;
+  height: 250px;
+  margin: 5px auto;
+  width: 250px;
+}
+
+
+/* $Id: example.css,v 1.5 2006/03/27 02:44:36 pat Exp $ */
+
+/*--------------------------------------------------
+  REQUIRED to hide the non-active tab content.
+  But do not hide them in the print stylesheet!
+  --------------------------------------------------*/
+.tabberlive .tabbertabhide {
+ display:none;
+}
+
+/*--------------------------------------------------
+  .tabber = before the tabber interface is set up
+  .tabberlive = after the tabber interface is set up
+  --------------------------------------------------*/
+.tabber {
+}
+.tabberlive {
+ margin-top:1em;
+}
+
+/*--------------------------------------------------
+  ul.tabbernav = the tab navigation list
+  li.tabberactive = the active tab
+  --------------------------------------------------*/
+ul.tabbernav {
+  /* border-bottom: 1px solid #777788; */
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 12px;
+  margin: 0 0 -1px !important;
+  padding: 3px 0 !important;
+  text-align: center;
+}
+
+ul.tabbernav li {
+  display: inline;
+  list-style: none outside none !important;
+  margin: 0;
+}
+ul.tabbernav li a {
+  background: none repeat scroll 0 0 #EEEEEE;
+  border: 1px solid #AAAAAA;
+  border-bottom: none;
+  border-radius: 3px 3px 0 0;
+  color: #4580C2;
+  margin-left: 3px;
+  padding: 3px;
+  text-decoration: none !important;
+  text-shadow: 1px 1px 0 #FFFFFF;
+}
+ul.tabbernav li a:visited { color: #bf642e; }
+ul.tabbernav li a:hover
+{
+ color: #000;
+ background: #AAE;
+ border-color: #227;
+}
+
+ul.tabbernav li.tabberactive a {
+  background-color: #555555;
+  color: #DDDDDD;
+  text-shadow: 1px 1px 0 #000000;
+}
+
+ul.tabbernav li.tabberactive a:hover {
+  background: none repeat scroll 0 0 #333333;
+  border-bottom: 1px solid white;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0 #000000;
+}
+
+/*--------------------------------------------------
+  .tabbertab = the tab content
+  Add style only after the tabber interface is set up (.tabberlive)
+  --------------------------------------------------*/
+.tabberlive .tabbertab {
+ padding:5px;
+ border:1px solid #eee;
+ /* border-top:0; */
+ border-radius: 5px 5px 5px 5px;
+
+ /* If you don't want the tab size changing whenever a tab is changed
+    you can set a fixed height */
+
+ /* height:200px; */
+
+ /* If you set a fix height set overflow to auto and you will get a
+    scrollbar when necessary */
+
+ /* overflow:auto; */
+}
+.tabbertab ul {
+  margin: 0 12px !important;
+}
+.tabbertab ul li {
+  border-bottom: 1px dashed #DDDDDD;
+  list-style: disc outside url("../images/li.png") !important;
+  margin: 0 0 5px;
+  padding: 0 0 5px;
+}
+/* If desired, hide the heading since a heading is provided by the tab */
+.tabberlive .tabbertab h2 {
+ display:none;
+}
+.tabberlive .tabbertab h3 {
+ display:none;
+}
+
+
+/* Example of using an ID to set different styles for the tabs on the page */
+.tabberlive#tab1 {
+}
+.tabberlive#tab2 {
+}
+.tabberlive#tab2 .tabbertab {
+ height:200px;
+ overflow:auto;
+}
